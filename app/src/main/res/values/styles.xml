@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/actioBarIcon</item>
+    </style>
+
+    <style name="actioBarIcon" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_settings</item>
+    </style>
+
+    <style name="cardTheme" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/distance_4dp</item>
+        <item name="cardCornerRadius">@dimen/distance_4dp</item>
+        <item name="cardElevation">@dimen/distance_4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <style name="cardCarousel" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">@dimen/distance_4dp</item>
+        <item name="cardCornerRadius">@dimen/distance_4dp</item>
+        <item name="cardElevation">@dimen/distance_4dp</item>
+        <item name="cardUseCompatPadding">true</item>
+    </style>
+
+    <!-- Text -->
+    <style name="textHeadline" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="textHeadline.normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="textHeadline.normal.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textBody" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="textBody.small">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="textBody.normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="textHeadlineConstraint" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="textHeadlineConstraint.normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+    <style name="textHeadlineConstraint.normal.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textHeadlineConstraint.medium">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="textHeadlineConstraint.medium.bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textBodyConstraint" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+    </style>
+
+    <style name="textBodyConstraint.normal">
+        <item name="android:textSize">@dimen/text_normal</item>
+    </style>
+
+</resources>

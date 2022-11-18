@@ -1,0 +1,65 @@
+Skenario Unit Testing
+
+ListDataViewModelTest
+- Memuat Movie List
+  - Memastikan data movie list tidak null.
+  - Memastikan jumlah data movie list sesuai dengan yang di harapkan.
+- Memuat TV List
+  - Memastikan data tv list tidak null.
+  - Memastikan jumlah data tv list sesuai dengan yang di harapkan.
+DetailDataViewModelTest
+- Memuat Detail Movie
+  - Memastikan detail data movie tidak sama dengan null.
+  - Memastikan detail data movie sesuai dengan yang diharapkan.
+- Memuat Detail TV
+  - Memastikan detail data tv tidak sama dengan null.
+  - Memastikan detail data tv sesuai dengan yang diharapkan.
+
+
+Skenario Instrumental Testing
+
+MainActivityTest
+- Menampilkan data Movie List
+  - Memastikan rv_movie dalam keadaan tampil.
+  - Memastikan data movie list tampil kembali setelah melakukan tindakan swipe refresh.
+  - Memastikan data yang di tampilkan di rv_movie sesuai dengan yang diharapkan.
+  - Gulir rv_movie ke posisi data sebelum data terakhir.
+  - Melakukan tindakan klik pada data sebelum data terakhir di rv_movie.
+- Menampilkan data TV List
+  - Memastikan rv_tv dalam keadaan tampil.
+  - Memastikan data tv list tampil kembali setelah melakukan tindakan swipe refresh.
+  - Memastikan data yang di tampilkan di rv_tv sesuai dengan yang diharapkan.
+  - Gulir rv_tv ke posisi data sebelum data terakhir.
+  - Melakukan tindakan klik pada data sebelum data terakhir di rv_tv.
+DetailMovieActivityTest
+- Menampilkan detail data movie
+  - Memastikan imgdetail dalam keadaan tampil.
+  - Memastikan txtdetail_title dalam keadaan tampil.
+  - Memastikan txtdetail_title menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_released dalam keadaan tampil.
+  - Memastikan txtdetail_released menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_language dalam keadaan tampil.
+  - Memastikan txtdetail_language menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_genres dalam keadaan tampil.
+  - Memastikan txtdetail_genres menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_overview dalam keadaan tampil.
+  - Memastikan txtdetail_overview menampilkan data sesuai dengan yang diharapkan.
+  - Melakukan tindakan klik pada button imgdetail_fb.
+  - Melakukan tindakan klik pada button imgdetail_twt.
+  - Melakukan tindakan klik pada button imgdetail_insta.
+DetailTVActivityTest
+- Menampilkan detail data tv
+  - Memastikan imgdetail dalam keadaan tampil.
+  - Memastikan txtdetail_title dalam keadaan tampil.
+  - Memastikan txtdetail_title menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_released dalam keadaan tampil.
+  - Memastikan txtdetail_released menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_language dalam keadaan tampil.
+  - Memastikan txtdetail_language menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_genres dalam keadaan tampil.
+  - Memastikan txtdetail_genres menampilkan data sesuai dengan yang diharapkan.
+  - Memastikan txtdetail_overview dalam keadaan tampil.
+  - Memastikan txtdetail_overview menampilkan data sesuai dengan yang diharapkan.
+  - Melakukan tindakan klik pada button imgdetail_fb.
+  - Melakukan tindakan klik pada button imgdetail_twt.
+  - Melakukan tindakan klik pada button imgdetail_insta.

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="about">About</string>
+    <string name="academy">Dicoding Academy</string>
+    <string name="android_enthusiast">Android Enthusiast</string>
+    <string name="connection_status">Not Connection</string>
+    <string name="development_status">Under Development</string>
+    <string name="empty_tv_favorite_list">TV Favorite List is Empty</string>
+    <string name="empty_movie_favorite_list">Movie Favorite List is Empty</string>
+    <string name="error_status">Error Bung</string>
+    <string name="favorite_delete_success">success delete from favorites list</string>
+    <string name="favorite_save_success">successfully save to favorites list</string>
+    <string name="favorite_save_exist">The film has been listed as a favorite</string>
+    <string name="favorite_save_error">Failed to save</string>
+    <string name="developer">Nur Rahmat Dwi Riyanto</string>
+    <string name="movie_tab_title">Movies</string>
+    <string name="movie_title_label">Movie Title</string>
+    <string name="movie_released_information_label">Released Information</string>
+    <string name="movie_original_language">Original Language</string>
+    <string name="movie_runtime">Runtime</string>
+    <string name="movie_genres_label">Genres</string>
+    <string name="movie_overview_label">Overview</string>
+    <string name="settings">Setting</string>
+    <string name="tv_tab_title">TV Shows</string>
+    <string name="version_app">Version 1.0.0</string>
+    <string name="powered_by">Powered by:</string>
+    <string name="thanks_you">Thanks You</string>
+    <string name="title_menu_movies">Movies</string>
+    <string name="title_menu_tvshow">TVShow</string>
+    <string name="title_menu_favorite">Favorite</string>
+    <string name="title_menu_home">Home</string>
+</resources>

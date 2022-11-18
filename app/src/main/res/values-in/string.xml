@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="about">Tentang</string>
+    <string name="academy">Akademi Dicoding</string>
+    <string name="android_enthusiast">Penggemar Android</string>
+    <string name="connection_status">Tidak ada koneksi</string>
+    <string name="development_status">Fitur Dalam Pengembangan</string>
+    <string name="empty_tv_favorite_list">Daftar Favorit TV Kosong</string>
+    <string name="empty_movie_favorite_list">Daftar Favorit Movie Kosong</string>
+    <string name="error_status">Error Bung</string>
+    <string name="favorite_delete_success">berhasil di hapus dari daftar favorit</string>
+    <string name="favorite_save_success">sukses disimpan ke daftar favorit</string>
+    <string name="favorite_save_exist">Data telah terdaftar di favorit</string>
+    <string name="favorite_save_error">Gagal menyimpan</string>
+    <string name="developer">Nur Rahmat Dwi Riyanto</string>
+    <string name="movie_tab_title">Film</string>
+    <string name="movie_title_label">Judul Film</string>
+    <string name="movie_released_information_label">Informasi Rilis</string>
+    <string name="movie_original_language">Bahasa</string>
+    <string name="movie_runtime">Durasi</string>
+    <string name="movie_genres_label">Genres</string>
+    <string name="movie_overview_label">Ikhtisar</string>
+    <string name="settings">Pengaturan</string>
+    <string name="tv_tab_title">Acara TV</string>
+    <string name="version_app">Versi 1.0.0</string>
+    <string name="powered_by">Di Persembahkan oleh:</string>
+    <string name="thanks_you">Terimakasih</string>
+    <string name="title_menu_movies">Film</string>
+    <string name="title_menu_tvshow">Acara Tv</string>
+    <string name="title_menu_favorite">Favorit</string>
+    <string name="title_menu_home">Home</string>
+</resources>

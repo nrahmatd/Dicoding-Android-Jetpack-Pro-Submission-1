@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".View.DetailMovieActivity">
+
+        <ProgressBar
+                android:id="@+id/progress_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.526"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.263" />
+
+        <ImageView
+                android:id="@+id/imgdetail"
+                android:layout_width="@dimen/distance_200dp"
+                android:layout_height="@dimen/distance_300dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@null"
+                android:padding="@dimen/distance_8dp"
+                android:scaleType="fitXY"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/txtdetail_title_label"
+                style="@style/textHeadlineConstraint.normal.bold"
+                android:paddingStart="@dimen/distance_8dp"
+                android:paddingTop="@dimen/distance_8dp"
+                android:paddingEnd="0dp"
+                android:text="@string/movie_title_label"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+                android:id="@+id/txtdetail_title"
+                style="@style/textBodyConstraint.normal"
+                android:padding="@dimen/distance_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_title_label"
+                tools:text="Infinity War" />
+
+        <TextView
+                android:id="@+id/txtdetail_released_label"
+                style="@style/textHeadlineConstraint.normal.bold"
+                android:padding="@dimen/distance_8dp"
+                android:text="@string/movie_released_information_label"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_title" />
+
+        <TextView
+                android:id="@+id/txtdetail_released"
+                style="@style/textBodyConstraint.normal"
+                android:padding="@dimen/distance_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_released_label"
+                tools:text="March 23, 2018" />
+
+        <TextView
+                android:id="@+id/txtdetail_languange_label"
+                style="@style/textHeadlineConstraint.normal.bold"
+                android:padding="@dimen/distance_8dp"
+                android:text="@string/movie_original_language"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_released" />
+
+        <TextView
+                android:id="@+id/txtdetail_language"
+                style="@style/textBodyConstraint.normal"
+                android:padding="@dimen/distance_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_languange_label"
+                tools:text="English" />
+
+        <TextView
+                android:id="@+id/txtdetail_runtime_label"
+                style="@style/textHeadlineConstraint.normal.bold"
+                android:padding="@dimen/distance_8dp"
+                android:text="@string/movie_runtime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_language" />
+
+        <TextView
+                android:id="@+id/txtdetail_runtime"
+                style="@style/textBodyConstraint.normal"
+                android:padding="@dimen/distance_8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_runtime_label"
+                tools:text="1h 51m" />
+
+
+        <ImageView
+                android:id="@+id/imgdetail_fb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/distance_8dp"
+                android:layout_marginTop="@dimen/distance_8dp"
+                android:layout_toStartOf="@+id/imgdetail_twt"
+                android:contentDescription="@null"
+                android:padding="@dimen/distance_8dp"
+                android:src="@drawable/facebook"
+                app:layout_constraintEnd_toStartOf="@+id/imgdetail_twt"
+                app:layout_constraintTop_toBottomOf="@+id/imgdetail" />
+
+        <ImageView
+                android:id="@+id/imgdetail_twt"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="@dimen/distance_8dp"
+                android:layout_marginTop="@dimen/distance_8dp"
+                android:contentDescription="@null"
+                android:padding="@dimen/distance_8dp"
+                android:src="@drawable/twitter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgdetail" />
+
+        <ImageView
+                android:id="@+id/imgdetail_insta"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="@dimen/distance_8dp"
+                android:layout_marginTop="@dimen/distance_8dp"
+                android:layout_toEndOf="@+id/imgdetail_twt"
+                android:contentDescription="@null"
+                android:padding="@dimen/distance_8dp"
+                android:src="@drawable/instagram"
+                app:layout_constraintStart_toEndOf="@+id/imgdetail_twt"
+                app:layout_constraintTop_toBottomOf="@+id/imgdetail" />
+
+        <TextView
+                android:id="@+id/txtdetail_genres_label"
+                style="@style/textHeadline.normal.bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/movie_genres_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgdetail_twt" />
+
+        <com.google.android.material.card.MaterialCardView
+                android:id="@+id/carddetail"
+                style="@style/cardCarousel"
+                android:layout_below="@+id/txtdetail_genres_label"
+                android:layout_marginStart="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_genres_label">
+
+            <TextView
+                    android:id="@+id/txtdetail_genres"
+                    style="@style/textBody.normal"
+                    android:padding="@dimen/distance_8dp"
+                    tools:text="Action" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+                android:id="@+id/txtdetail_overview_label"
+                style="@style/textHeadline.normal.bold"
+                android:layout_below="@+id/carddetail"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/movie_overview_label"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carddetail" />
+
+        <TextView
+                android:id="@+id/txtdetail_overview"
+                style="@style/textBody.small"
+                android:layout_below="@+id/txtdetail_overview_label"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:paddingStart="@dimen/distance_8dp"
+                android:paddingEnd="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtdetail_overview_label"
+                app:layout_constraintVertical_bias="0.050000012"
+                tools:text="@tools:sample/lorem/random" />
+
+        <androidx.constraintlayout.widget.Group
+                android:id="@+id/detail_group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:constraint_referenced_ids="imgdetail,carddetail,txtdetail_title_label,txtdetail_languange_label,imgdetail_fb,txtdetail_genres_label,txtdetail_overview,txtdetail_overview_label,imgdetail_insta,txtdetail_released_label,imgdetail_twt,txtdetail_released,txtdetail_title,txtdetail_language, txtdetail_runtime_label, txtdetail_runtime" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
