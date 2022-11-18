@@ -1,4 +1,4 @@
-# Dicoding Belajar Android Jetpack Pro (The Class has been nonactive) 
+# Dicoding Belajar Android Jetpack Pro (This class is currently inactive) 
 Submission 1 Criteria
 - Implemented ViewModel for Accommodate Movies Data and TV Show Data
 - Showing movie list with minimum 10 item
