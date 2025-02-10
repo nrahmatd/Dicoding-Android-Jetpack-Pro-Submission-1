@@ -6,11 +6,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.dicoding.nrahmatd.databinding.FragmentMovieBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseFragment
+import com.dicoding.nrahmatd.picodiploma.core.model.MovieModel
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.adapter.MovieAdapter
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.constant.Constant.Companion.MOVIETYPE
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.MovieModel
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.FragmentMovieBinding
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.activity.DetailActivity
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.viewmodel.ListDataViewModel
 

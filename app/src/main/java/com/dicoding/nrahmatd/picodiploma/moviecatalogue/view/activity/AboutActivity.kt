@@ -2,9 +2,9 @@ package com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.activity
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import com.dicoding.nrahmatd.R
-import com.dicoding.nrahmatd.databinding.ActivityAboutBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseActivity
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.R
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.ActivityAboutBinding
 
 class AboutActivity : BaseActivity<ActivityAboutBinding>() {
 

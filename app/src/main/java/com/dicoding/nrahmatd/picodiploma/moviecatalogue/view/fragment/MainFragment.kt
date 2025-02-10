@@ -7,11 +7,11 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import com.dicoding.nrahmatd.R
-import com.dicoding.nrahmatd.databinding.FragmentMainBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseFragment
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.MainActivity
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.R
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.adapter.SectionPagerAdapter
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.FragmentMainBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 

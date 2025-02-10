@@ -8,9 +8,9 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.dicoding.nrahmatd.R
-import com.dicoding.nrahmatd.databinding.ItemTvBinding
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.TVModel
+import com.dicoding.nrahmatd.picodiploma.core.model.TVModel
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.R
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.ItemTvBinding
 
 /**
  *

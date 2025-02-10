@@ -7,10 +7,9 @@ import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
-import com.dicoding.nrahmatd.R
-import com.dicoding.nrahmatd.databinding.ActivityMainBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseActivity
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.adapter.SectionPagerAdapter
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.ActivityMainBinding
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.activity.AboutActivity
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.fragment.MainFavoriteFragment
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.fragment.MainFragment

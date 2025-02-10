@@ -1,8 +1,8 @@
 package com.dicoding.nrahmatd.picodiploma.core.utils
 
 import com.dicoding.nrahmatd.picodiploma.core.R
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.MovieModel
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.TVModel
+import com.dicoding.nrahmatd.picodiploma.core.model.MovieModel
+import com.dicoding.nrahmatd.picodiploma.core.model.TVModel
 
 object DummyData {
     var movieData = arrayOf(

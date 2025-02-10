@@ -1,4 +1,4 @@
-package com.dicoding.nrahmatd.picodiploma.moviecatalogue.model
+package com.dicoding.nrahmatd.picodiploma.core.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

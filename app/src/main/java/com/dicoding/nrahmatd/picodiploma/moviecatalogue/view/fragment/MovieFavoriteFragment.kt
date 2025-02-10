@@ -6,14 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.dicoding.nrahmatd.databinding.FragmentMovieFavoriteBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseFragment
+import com.dicoding.nrahmatd.picodiploma.core.model.MovieModel
 import com.dicoding.nrahmatd.picodiploma.core.utils.GlobalVariable
 import com.dicoding.nrahmatd.picodiploma.core.utils.getNotify
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.adapter.MovieAdapter
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.constant.Constant.Companion.MOVIETYPE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.MovieFavoriteHelper
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.MovieModel
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.FragmentMovieFavoriteBinding
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.activity.DetailActivity
 import io.reactivex.disposables.CompositeDisposable
 

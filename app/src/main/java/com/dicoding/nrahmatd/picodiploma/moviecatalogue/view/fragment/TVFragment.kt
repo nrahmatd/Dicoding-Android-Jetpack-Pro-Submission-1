@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.dicoding.nrahmatd.databinding.FragmentTvBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseFragment
+import com.dicoding.nrahmatd.picodiploma.core.model.TVModel
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.adapter.TVAdapter
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.constant.Constant.Companion.TVTYPE
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.TVModel
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.FragmentTvBinding
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.view.activity.DetailActivity
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.viewmodel.ListDataViewModel
 

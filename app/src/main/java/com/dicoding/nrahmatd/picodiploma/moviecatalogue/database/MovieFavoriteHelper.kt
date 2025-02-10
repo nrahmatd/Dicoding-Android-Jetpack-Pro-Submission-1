@@ -5,13 +5,13 @@ import android.content.Context
 import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.dicoding.nrahmatd.picodiploma.core.model.MovieModel
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_ID
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_OVERVIEW
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_PHOTO
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_RELEASE_DATE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_TABLE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.MovieFavoriteColumns.MOVIE_TITLE
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.MovieModel
 
 /**
  *
@@ -55,7 +55,8 @@ class MovieFavoriteHelper(context: Context) {
         cursor.moveToFirst()
         if (cursor.count > 0) {
             do {
-                arrayList.add(MovieModel(
+                arrayList.add(
+                    MovieModel(
                     cursor.getInt(cursor.getColumnIndexOrThrow(MOVIE_ID)),
                     cursor.getInt(cursor.getColumnIndexOrThrow(MOVIE_PHOTO)),
                     cursor.getString(cursor.getColumnIndexOrThrow(MOVIE_TITLE)),
@@ -67,7 +68,8 @@ class MovieFavoriteHelper(context: Context) {
                     "",
                     "",
                     ""
-                ))
+                )
+                )
                 cursor.moveToNext()
             } while (!cursor.isAfterLast)
         }

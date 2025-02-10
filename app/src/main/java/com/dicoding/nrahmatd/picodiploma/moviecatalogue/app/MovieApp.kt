@@ -1,9 +1,9 @@
 package com.dicoding.nrahmatd.picodiploma.moviecatalogue.app
 
 import android.app.Application
-import com.dicoding.nrahmatd.BuildConfig
-import com.dicoding.nrahmatd.R
 import com.dicoding.nrahmatd.picodiploma.core.utils.CustomCrashHandler
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.BuildConfig
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.R
 import com.nrahmatdev.androidcontext.AndroidContext
 
 class MovieApp : AndroidContext() {

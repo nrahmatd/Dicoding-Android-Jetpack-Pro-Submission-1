@@ -5,13 +5,13 @@ import android.content.Context
 import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.dicoding.nrahmatd.picodiploma.core.model.TVModel
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_ID
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_OVERVIEW
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_PHOTO
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_RELEASE_DATE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_SHOW_TABLE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.DatabaseContract.TVFavoriteColumns.TV_TITLE
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.TVModel
 
 /**
  *
@@ -55,7 +55,8 @@ class TVFavoriteHelper(context: Context) {
         cursor.moveToFirst()
         if (cursor.count > 0) {
             do {
-                arrayList.add(TVModel(
+                arrayList.add(
+                    TVModel(
                     cursor.getInt(cursor.getColumnIndexOrThrow(TV_ID)),
                     cursor.getInt(cursor.getColumnIndexOrThrow(TV_PHOTO)),
                     cursor.getString(cursor.getColumnIndexOrThrow(TV_TITLE)),
@@ -67,7 +68,8 @@ class TVFavoriteHelper(context: Context) {
                     "",
                     "",
                     ""
-                ))
+                )
+                )
                 cursor.moveToNext()
             } while (!cursor.isAfterLast)
         }

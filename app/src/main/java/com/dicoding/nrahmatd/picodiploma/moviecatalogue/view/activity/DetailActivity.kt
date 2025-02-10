@@ -10,17 +10,17 @@ import androidx.activity.viewModels
 import androidx.core.content.ContextCompat
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.dicoding.nrahmatd.R
-import com.dicoding.nrahmatd.databinding.ActivityDetailBinding
 import com.dicoding.nrahmatd.picodiploma.core.baseview.BaseActivity
+import com.dicoding.nrahmatd.picodiploma.core.model.MovieModel
+import com.dicoding.nrahmatd.picodiploma.core.model.TVModel
 import com.dicoding.nrahmatd.picodiploma.core.utils.GlobalVariable
 import com.dicoding.nrahmatd.picodiploma.core.utils.sendNotify
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.R
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.constant.Constant.Companion.MOVIETYPE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.constant.Constant.Companion.TVTYPE
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.MovieFavoriteHelper
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.database.TVFavoriteHelper
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.MovieModel
-import com.dicoding.nrahmatd.picodiploma.moviecatalogue.model.TVModel
+import com.dicoding.nrahmatd.picodiploma.moviecatalogue.databinding.ActivityDetailBinding
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.utils.EspressoIdlingResource
 import com.dicoding.nrahmatd.picodiploma.moviecatalogue.viewmodel.DetailDataViewModel
 
